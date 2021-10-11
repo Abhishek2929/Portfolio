@@ -109,3 +109,102 @@ button {
     height: 6px;
     border-radius: 3px;
 }
+
+.liveActivity{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.minActivity{
+    
+    width: 200px;
+    border-top: 8px solid rgb(128, 15, 15);
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.42);
+padding: 10px;
+padding-bottom: 15px;
+font-family: 'Times New Roman', Times, serif;
+color: gray;
+}
+
+.miniActivityStats{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+.foooter{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 600px;
+    margin: auto;
+    
+
+}
+
+.projectFlex{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+   
+}
+
+
+.project{
+    width: 500px;
+    margin: 15px;
+    
+}
+
+.projectTitle {
+    flex:1;
+    font-weight: bold;
+}
+
+.date {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.projectText {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+}
+
+.techStack {
+    display: flex;
+}
+
+.stack {
+    padding: 3px;
+    min-width: 90px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgb(51, 51, 51);
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+.myimg {
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
